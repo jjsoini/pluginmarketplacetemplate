@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "example-fetch": {
+      "command": "npx",
+      "args": ["-y", "mcp-server-fetch"],
+      "env": {}
+    }
+  }
+}
