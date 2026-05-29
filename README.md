@@ -1,4 +1,4 @@
-# Qvik Team Plugin Marketplace
+# Team Plugin Marketplace
 
 An internal [Claude Code plugin marketplace](https://docs.claude.com/en/docs/claude-code/plugins) for the team. A marketplace is just a git repository with a `.claude-plugin/marketplace.json` file that lists one or more plugins. Once added, teammates can browse and install any plugin in this repo.
 
@@ -31,7 +31,7 @@ Add the marketplace once (point at this repo on GitHub, or a local path while de
 Then install a plugin from it:
 
 ```
-/plugin install example-plugin@qvik-team-marketplace
+/plugin install example-plugin@team-marketplace
 ```
 
 Browse and manage everything interactively with:
@@ -49,7 +49,7 @@ To develop locally without pushing to GitHub, add the marketplace by absolute pa
 After editing a plugin, refresh the marketplace to pick up changes:
 
 ```
-/plugin marketplace update qvik-team-marketplace
+/plugin marketplace update team-marketplace
 ```
 
 ## Adding a new plugin
@@ -68,7 +68,7 @@ After editing a plugin, refresh the marketplace to pick up changes:
    }
    ```
 
-5. Reload with `/plugin marketplace update qvik-team-marketplace` and test.
+5. Reload with `/plugin marketplace update team-marketplace` and test.
 
 See `plugins/example-plugin/README.md` for details on each component type.
 

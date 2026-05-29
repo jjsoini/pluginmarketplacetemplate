@@ -1,8 +1,8 @@
 {
-  "name": "qvik-team-marketplace",
+  "name": "team-marketplace",
   "owner": {
-    "name": "Qvik Team",
-    "email": "jussi.soini@qvik.fi"
+    "name": "Team",
+    "email": "you@example.com"
   },
   "metadata": {
     "description": "Internal Claude Code plugin marketplace for the team.",
@@ -15,7 +15,7 @@
       "description": "Reference plugin showing every component type: a command, an agent, a skill, a hook, and an MCP server.",
       "version": "0.1.0",
       "author": {
-        "name": "Qvik Team"
+        "name": "Team"
       },
       "keywords": ["example", "template", "reference"]
     }
